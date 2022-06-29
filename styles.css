@@ -1,0 +1,104 @@
+body {
+    text-align: center;
+    font-family: 'CoquetteC', cursive;
+    background: linear-gradient(#1f1b1b, #d81d0f);
+    color: #ffffff;
+}
+
+h1, h2, h3, h4, p {
+    text-shadow: 0 0 1px black;
+}
+
+#mom-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 6px solid #883ba0;
+    margin-bottom: 10px;
+}
+
+#bday-age {
+    background: #883ba0;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+}
+
+#bday-date {
+    margin: 0;
+    background: #883ba0;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gift-section {
+    margin-top: 50px;
+}
+
+.gift-title {
+    margin-bottom: 10px;
+}
+
+.gift-hint {
+    margin-top: 0;
+}
+
+#gift-img-cheers {
+    height: 200px;
+}
+
+.gift-img {
+    margin: 20px auto;
+    max-width: 460px;
+    height: 400px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url("images/gift-cover.jpg");
+    background-size: cover;
+}
+
+#gift-img-graph:hover {
+    background-image: url("https://media.giphy.com/media/3og0IExSrnfW2kUaaI/giphy.gif");
+}
+
+#gift-img-mood:hover {
+    background-image: url("https://r1.mt.ru/u1/photo79A4/20104491849-0/original.gif");
+}
+
+#gift-img-best:hover {
+    background-image: url("https://i.yapx.cc/Gne5Y.gif");
+}
+
+#gift-img-cool:hover {
+    background-image: url("https://media.giphy.com/media/cmm2mswJhvFL754BBZ/giphy.gif");
+}
+
+#gift-img-cheers:hover {
+    background-image: url("https://media.giphy.com/media/BPJmthQ3YRwD6QqcVD/giphy.gif");
+}
+
+#footer {
+    font-style: italic;
+    width: 400px;
+    margin: 40px auto 20px;
+}
+
+a {
+    color: white;
+}
+
+@font-face {
+	font-family: 'CoquetteC';
+	src: url('../fonts/coquettec.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/coquettec.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/coquettec.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/coquettec.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/coquettec.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/coquettec.svg#coquettec') format('svg'); /* Chrome < 4, Legacy iOS */
+}
